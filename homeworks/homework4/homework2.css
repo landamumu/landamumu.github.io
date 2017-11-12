@@ -1,0 +1,25 @@
+/*homework2.css*/
+
+body{
+	background-image: url("background.jpg");
+	background-size: auto auto;
+}
+
+.paragraph{
+	margin-left: 20px;
+	margin-right: 10px;
+	margin-top: 30px;
+}
+
+.special{
+	font-weight:serif;
+	background-color: #A5F5E1;
+	margin-left: 100px;
+	margin-right: 150px;
+	margin-top: 30px;
+	border-radius: 10px;
+	border-style: dashed;
+	border-width: 3px;
+	border-color: white;
+
+}
