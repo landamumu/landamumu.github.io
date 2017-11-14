@@ -1,0 +1,77 @@
+/*style.css*/
+
+body{
+	background-image: url("background.jpg");
+	background-size: auto;
+}
+
+table{
+	width: 600px;
+	border: 1px black solid;
+	border-collapse: collapse;
+}
+
+caption{
+	height: 10px;
+	font-weight: bold;
+	font-size: 50px;
+	padding-top: 50px;
+	padding-bottom: 20px;
+	margin-bottom: 50px;
+}
+
+th,td{
+	width: 100px;
+	height: 50px;
+	border: 1px black solid;
+	padding: 20px;
+	text-align: center;
+}
+
+.jizu{
+	background-color: #F4FFAC;
+}
+
+.jiwang{
+	background-color: #F06C79;
+}
+
+.czxt{
+	background-color: #27BA74;
+}
+
+.suanfa{
+	background-color: #4BCCEE;
+}
+
+.duomeiti{
+	background-color: #B5A1EE;
+}
+
+.cxsj{
+	background-color: #D5F5A6;
+}
+
+.sy_jz{
+	background-color: #FEE1AD;
+}
+
+.sy_jw{
+	background-color: #DDBAEE;
+}
+
+.sy_dmt{
+	background-color: #74EAA5;
+}
+
+.sy_czxt{
+	background-color: #A9CAEC;
+}
+
+.tongshi{
+	background-color: #FAC0C9;
+}
+
+.free{
+	background-color: gray;
+}

@@ -1,0 +1,75 @@
+<!-- homework1.html -->
+
+
+<!-- 要求:把你下星期的课表建成一张表. 整张表格居中对齐,相同的课程用相同的背景色,不在下周的课程用灰色. 表格标题自己定义. 同时为网页选择一张背景图. 然后,让表格尽量漂亮 -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="utf-8">
+</head>
+<body>
+	<table style="width:100%">
+		<caption>Class Schedule</caption>
+		<tr>
+			<th>Monday</th>
+			<th>Tuesday</th>
+			<th>Wednesrday</th>
+			<th>Thursday</th>
+			<th>Friday</th>
+			<th>Saturday</th>
+			<th>Sunday</th>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td rowspan="2" class="free">程序实践</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td class="jizu">计算机组成原理</td>
+			<td class="czxt">操作系统</td>
+			<td class="duomeiti">多媒体技术</td>
+			<td class="jizu">计算机组成原理</td>
+			<td class="czxt">操作系统</td>
+			<td></td>
+		<tr>
+			<td class="jiwang">计算机网络</td>
+			<td class="suanfa">算法分析与设计</td>
+			<td class="jiwang">计算机网络</td>
+			<td rowspan="2" class="free">操作系统实验</td>
+			<td class="suanfa">算法分析与设计</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td class="free">操作系统实验</td>
+			<td class="free">大学生心理健康</td>
+			<td class="free">大学生心理健康</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td rowspan="2" class="sy_jz">计算机组成原理实验</td>
+			<td rowspan="2" class="free">多媒体技术实验</td>
+			<td></td>
+			<td rowspan="2" class="free">计算机网络实验</td>
+			<td></td>
+			<td></td>
+			<td rowspan="2" class="free">程序实践</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+	</table>
+
+</body>
+</html>
