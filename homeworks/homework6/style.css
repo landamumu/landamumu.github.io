@@ -6,7 +6,13 @@ li{
 }
 
 ul{
-	background-color: gray;
+	background-color: #A5F5E1;
+	padding: 20px;
+}
+
+a{
+	color: green;
+	text-decoration: none;
 	padding: 20px;
 }
 
