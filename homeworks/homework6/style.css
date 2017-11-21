@@ -1,8 +1,18 @@
-/*homework2.css*/
+/*style.css*/
+
+li{
+	display: inline;
+	padding: 20px;
+}
+
+ul{
+	background-color: gray;
+	padding: 20px;
+}
 
 body{
 	background-image: url("background.jpg");
-	background-size: auto;
+	background-size: auto auto;
 }
 
 .paragraph{
