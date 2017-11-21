@@ -1,4 +1,8 @@
 /*style.css*/
+body{
+	background-image: url("background.jpg");
+	background-size: auto auto;
+}
 
 li{
 	display: inline;
@@ -16,10 +20,11 @@ a{
 	padding: 20px;
 }
 
-body{
-	background-image: url("background.jpg");
-	background-size: auto auto;
+a:hover{
+	background-color: #E1F489;
 }
+
+
 
 .paragraph{
 	margin-left: 20px;
