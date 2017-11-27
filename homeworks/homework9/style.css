@@ -1,0 +1,20 @@
+/*style.css*/
+
+body{
+	background-image: url("background.jpg");
+	text-align: center;
+}
+
+information{
+	font-size: 28px;
+	color: gray;
+}
+
+.submit{
+	margin-top: 10px;
+	background-color: #0078d7;
+	width: 180px;
+	height: 50px;
+	color: white;
+}
+
